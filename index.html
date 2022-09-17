@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Coder Records</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav__flexContainer">
+                <div class="nav__logo">
+                    <a href="index.html">
+                        <img src="./recursos/vinyl.png" alt="Coder Records Logo">
+                    </a>
+                    <h1>Coder Records</h1>
+                </div>
+                <div class="nav__shoppingCart">
+                    <img class= "shoppingCartBtn" src="./recursos/shopping-cart.png" alt="Carrito de Compras">
+                    <div class="shoppingCartQuantity"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="modalContainer">
+            <div class="shoppingCartModal">
+                <h4>Carrito de Compras</h4>
+                <p class="modalMessage"></p>
+                <div class="shoppingCartProducts">
+
+                </div>
+                <p class="totalAmout"></p>
+                <button class="emptyCartBtn">Vaciar</button>
+                <button class="modalContainerClose">Cerrar</button>
+                <button class="buyCartBtn">Comprar</button>
+            </div>
+        </div>
+        <div class="loginContainer">
+            <input type="text" class="loginInput" placeholder="Ingresa tu Nombre">
+            <div class="loginBtn__container">
+                <input class="loginBtn" type="submit" value="Login">
+            </div>
+        </div>
+        <div class="logoutContainer">
+            <div class="welcomeMessage__container">
+            </div>
+            <div class="logoutBtn__container">
+                <input class="logoutBtn" type="submit" value="X">
+            </div>
+        </div>
+        <div class="searchBar__container">
+            <div class="searchBar">
+                    <input class="searchBar__input" type="text" placeholder="¿Qué estás buscando?">
+                    <button class="searchBar__btn" type="submit">
+                        <img src="./recursos/search.png" alt="Lupa">
+                    </button>
+            </div>
+        </div>
+        <h2 class="filterResultMessage">Productos Destacados:</h2>
+        <div class="mainFlexContainer">
+            <aside>
+                <div class="filterContainer">  
+                    <div class="categoryFilterContainer">
+                        <div class="selected">
+                            <h3>Filtrar Por Catergoría:</h3> 
+                        </div>
+                        <div class="selectBox">
+                            <div class="optionsContainer">
+                                <div class="option">
+                                    <input type="radio" class="destacados" id="destacados" name="category">
+                                    <label for="destacados">Productos Destacados</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" class="bandejas" id="bandejas" name="category">
+                                    <label for="bandejas">Bandejas Giradiscos</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" class="monitores" id="monitores" name="category">
+                                    <label for="monitores">Monitores de Estudio</label>
+                                </div>
+                                    <div class="option">
+                                        <input type="radio" class="discos" id="discos" name="category">
+                                        <label for="discos">Discos de Vinilo</label>
+                                    </div>
+                            </div>
+                            <div class="filterBtn">
+                                <input class="filterCategoryBtn" type="submit" value="Aplicar Filtro">
+                            </div>
+                        </div>
+                    </div>           
+                    <div class="priceFilterContainer">
+                        <div class="selected">
+                            <h3>Filtrar Por Precio:</h3> 
+                        </div>
+                        <div class="selectBox">
+                            <div class="princeInput">
+                                <div class="field">
+                                    <span>Min</span>
+                                    <input type="number" class="inputMin" name="price" id="minPrice" value="5000">
+                                </div>
+                                <div class="field">
+                                    <span>Max</span>
+                                    <input type="number" class="inputMax" name="price" id="maxPrice" value="150000">
+                                </div>
+                                <div class="filterBtn">
+                                    <input class="filterPriceBtn" type="submit" value="Aplicar Filtro">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <section>
+                <div class="gallery__flexContainer">
+                    <div class="products__gridGallery">
+                        
+                    </div>
+                </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

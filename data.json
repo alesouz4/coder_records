@@ -1,0 +1,21 @@
+[
+    {"id": "1", "name": "Audio-Technica At-lpw40wn", "category": "Bandejas Giradiscos", "price": 115000, "quantity": 1, "image": "./recursos/Bandeja 01 - At-lpw40wn.png"},
+    {"id": "2", "name": "Audio-Technica At-lpw30tk", "category": "Bandejas Giradiscos", "price": 100000, "quantity": 1, "image": "./recursos/Bandeja 02 - At-lpw30tk.png"},
+    {"id": "3", "name": "Audio-Technica At-lp60xbt", "category": "Bandejas Giradiscos", "price": 70000, "quantity": 1, "image": "./recursos/Bandeja 03 - At-lp60xbt.png"},
+    {"id": "4", "name": "Audio-Technica At-lp60x", "category": "Bandejas Giradiscos", "price": 55000, "quantity": 1, "image": "./recursos/Bandeja 04 - At-lp60x.png"},
+    {"id": "5", "name": "Mackie Cr5x Bt", "category": "Monitores de Estudio", "price": 99000, "quantity": 1, "image": "./recursos/Monitores 01 - Mackie Cr5x Bt.png"},
+    {"id": "6", "name": "Krk C5G3", "category": "Monitores de Estudio", "price": 95000, "quantity": 1, "image": "./recursos/Monitores 02 - Krk C5G3.png"},
+    {"id": "7", "name": "Behringer Studio 50 Usb", "category": "Monitores de Estudio", "price": 80000, "quantity": 1, "image": "./recursos/Monitores 03 - Behringer Studio 50 Usb.png"},
+    {"id": "8", "name": "Toto - IV (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 01 - Toto IV.png"},
+    {"id": "9", "name": "Kansas - Leftoverture (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 02 - Kansas LeftOverture.png"},
+    {"id": "10", "name": "Boston - Selftitled (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 03 - Boston Selftitled.png"},
+    {"id": "11", "name": "Michael Jackson - Thriller (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 04 - Michael Jackson Thriller.png"},
+    {"id": "12", "name": "Mark Lanegan - Field Songs (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 05 - Mark Lanegan Field Songs.png"},
+    {"id": "13", "name": "Jeff Buckley - Grace (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 06 - Jeff Buckley Grace.png"},
+    {"id": "14", "name": "AIC - Jar of Flies (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 07 - Alice in Chains Jar of Flies.png"},
+    {"id": "15", "name": "Pink Floyd - TDSOTM (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 08 -Pink Floyd - Dark Side of The Moon.png"},
+    {"id": "16", "name": "Tool - Lateralus (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 09 - Tool Lateralus.jpg"},
+    {"id": "17", "name": "Cynic - Traced in Air (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 10 - Cynic Traced in Air.jpg"},
+    {"id": "18", "name": "Extol - Selftitled (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 11 - Extol Selftitled.jpg"}
+]
+
