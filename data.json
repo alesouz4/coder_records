@@ -7,7 +7,7 @@
     {"id": "6", "name": "Krk C5G3", "category": "Monitores de Estudio", "price": 95000, "quantity": 1, "image": "./recursos/Monitores 02 - Krk C5G3.png"},
     {"id": "7", "name": "Behringer Studio 50 Usb", "category": "Monitores de Estudio", "price": 80000, "quantity": 1, "image": "./recursos/Monitores 03 - Behringer Studio 50 Usb.png"},
     {"id": "8", "name": "Toto - IV (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 01 - Toto IV.png"},
-    {"id": "9", "name": "Kansas - Leftoverture (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 02 - Kansas LeftOverture.jpg"},
+    {"id": "9", "name": "Kansas - Leftoverture (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 02 - Kansas Leftoverture.jpg"},
     {"id": "10", "name": "Boston - Selftitled (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 03 - Boston Selftitled.png"},
     {"id": "11", "name": "Michael Jackson - Thriller (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 04 - Michael Jackson Thriller.png"},
     {"id": "12", "name": "Mark Lanegan - Field Songs (Lp)", "category": "Discos de Vinilo", "price": 5000, "quantity": 1, "image": "./recursos/Disco 05 - Mark Lanegan Field Songs.png"},
